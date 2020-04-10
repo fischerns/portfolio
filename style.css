@@ -70,3 +70,24 @@ html, body {
 #sub-text {
     font-size: 15px;
 }
+
+/*--Footer--*/
+
+footer {
+    width: 100%;
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+.social a {
+    font-size: 6rem;
+    padding: 3rem;
+}
+#footer-text {
+    font-size: 50px;
+}
+.fa-youtube {
+    color: #bb0000;
+}
+.fa-youtube:hover {
+    color: #d5d5d5;
+}
