@@ -91,3 +91,46 @@ footer {
 .fa-youtube:hover {
     color: #d5d5d5;
 }
+
+/*--Media Queries--*/
+
+@media (max-width: 992px) {
+    .social a {
+        font-size: 6em;
+        padding: 4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .display-4 {
+        font-size: 300%;
+    }
+    .social a {
+        font-size: 4em;
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .display-1 {
+        font-size: 70px;
+    }
+    .display-4 {
+        font-size: 270%;
+    }
+    #main-text {
+        margin-top: 1rem;
+        padding-bottom: 1rem;
+        font-size: 30px;
+    }
+    .social a {
+        font-size: 3em;
+        padding: 2rem;
+    }
+    h2 {
+        font-size: 200%;
+    }
+    #footer-text {
+        font-size: 200%;
+    }
+}
