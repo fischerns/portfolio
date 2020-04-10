@@ -35,3 +35,20 @@ html, body {
     margin-top: .3rem;
     margin-bottom: 1rem;
 }
+
+/*--Cards--*/
+
+.text-muted {
+    margin-top: 1rem;
+}
+.text-muted .btn {
+    margin-bottom: 1rem;
+}
+.card-img-top {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 1rem;
+}
+.card-title {
+    padding-top: 1rem;
+}
